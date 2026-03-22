@@ -19,3 +19,10 @@ Plik Dockerfile nie zostal utworzony z użyciem:
 docker init 
 ```
 lecz napisany ręcznie z uwagi na fakt, iż polecenie to dostępne jest tylko dla Docker Desktop.
+
+Po sprawdzeniu poleceniem:
+```bash
+docker history web100
+```
+można zauważyć, że obraz składa się z 3 warstw.
+<img width="889" height="226" alt="Layers" src="https://github.com/user-attachments/assets/641969b3-4b7b-4343-8bd3-3aeb93f4472e" />
